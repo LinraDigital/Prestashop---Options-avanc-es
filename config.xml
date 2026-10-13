@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+   <name>ld_advanced_options</name>
+   <displayName><![CDATA[LD - Options avancées]]></displayName>
+   <version><![CDATA[2.10.0]]></version>
+   <description><![CDATA[Gestion de catégories et d'options supplémentaires (nom + valeur), sélectionnables ensuite sur une fiche produit et affichées en front à la suite des déclinaisons.]]></description>
+   <author><![CDATA[Linra Digital]]></author>
+   <tab><![CDATA[administration]]></tab>
+   <is_configurable>1</is_configurable>
+   <need_instance>0</need_instance>
+   <limited_countries></limited_countries>
+</module>

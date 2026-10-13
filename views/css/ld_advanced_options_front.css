@@ -1,0 +1,87 @@
+/* ld_advanced_options - front, styles de base à affiner côté client (Julien) */
+
+.ld-front-options {
+    background: #f6f7f4;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.ld-front-options__group {
+    margin-bottom: 18px;
+}
+
+.ld-front-options__group:last-child {
+    margin-bottom: 0;
+}
+
+.ld-front-options__group-title {
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+
+.ld-front-options__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    cursor: pointer;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.ld-front-options__item-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ld-front-options__checkbox {
+    margin: 0;
+}
+
+.ld-front-options__item-price {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.ld-front-options__item-tooltip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    border-radius: 50%;
+    background: #ddd;
+    color: #555;
+    font-size: 0.7rem;
+    font-weight: 700;
+    cursor: help;
+    vertical-align: middle;
+}
+
+.ld-front-options__item-tooltip {
+    position: relative;
+}
+
+.ld-tooltip-bubble {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 6px;
+    z-index: 10;
+    width: 220px;
+    max-width: 70vw;
+    background: #333;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: 1.4;
+    text-transform: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    white-space: normal;
+}
